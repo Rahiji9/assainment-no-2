@@ -1,0 +1,75 @@
+/* font from google */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+* {
+  max-width: 1440px;
+  margin: 0px auto;
+
+}
+
+
+/* header all styel */
+header {
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  margin-top: 80px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.head-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 100px;
+  gap: 50px;
+}
+
+.heading-contant {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title {
+  color: aliceblue;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.header-description {
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-item {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 16px;
+  /* border: 2px solid whitesmoke; */
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+
+}
+
+.btn {
+  background-color: orangered;
+  color: aliceblue;
+}
+
+.btn-size {
+  width: 174px;
+  height: 52px;
+}
